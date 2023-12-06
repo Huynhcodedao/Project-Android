@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="gioithieua">  Chào mừng đến với ứng dụng trí tuệ và giáo dục của chúng tôi! Dưới đây là hướng dẫn chi tiết về cách sử dụng ứng dụng</string>
+    <string name="gioithieub"> Màn hình số 1: Chào mừng và Bắt đầu\n\nMàn hình này là nơi bạn bắt đầu cuộc phiêu lưu trí tuệ của mình. Đọc kỹ thông tin giới thiệu và khi bạn đã sẵn sàng, nhấn vào nút Bắt đầu để tiến tới màn hình số 2.</string>
+    <string name="gioithieuc"> Màn hình số 2: Chọn Chủ đề và Cấp độ\n\nỞ đây, bạn có thể lựa chọn chủ đề mà bạn muốn thách thức kiến thức của mình. Hình ảnh minh họa và mô tả sẽ giúp bạn chọn được chủ đề phù hợp. Bạn cũng có thể chọn cấp độ khó dễ thông qua thanh gạt ở phía dưới. Đừng quên kiểm tra điểm số của bạn ở phía trên màn hình.</string>
+    <string name="gioithieud"> Màn hình số 3: Đố vui và Trả lời \n\nChuẩn bị tinh thần, bởi vì ở đây là nơi bạn sẽ đối mặt với các câu hỏi thú vị. Đọc kỹ câu hỏi và chọn câu trả lời đúng. Nhấn vào nút Trả lời để xem liệu bạn có thể vượt qua được thách thức hay không.</string>
+    <string name="gioithieue">Màn hình số 4: Kết quả và Lựa chọn\n\nSau mỗi lượt chơi, bạn sẽ biết được số điểm bạn đạt được. Tại đây, bạn có thể nhấn Hoàn thành để quay lại màn hình chào mừng và xem điểm tổng. Hoặc, nếu bạn muốn thử thách lại, hãy nhấn Chơi lại. Bạn cũng có thể chia sẻ thành tích của mình qua các ứng dụng khác. </string>
+    <string name="gioithieuf">Màn hình số 5: Danh sách Câu hỏi\n\nĐây là nơi bạn có thể xem tất cả các câu hỏi trong ứng dụng. Sử dụng menu lọc để tìm kiếm theo chủ đề. Chọn một câu hỏi để xem chi tiết. </string>
+    <string name="gt7">Màn hình số 6: Chi tiết Câu hỏi\n\n Ở đây, bạn sẽ thấy câu hỏi chi tiết cùng với các đáp án. Đây là cơ hội để bạn nắm vững kiến thức và chuẩn bị cho những thách thức sắp tới.</string>
+    <string-array name="array_chose">
+        <item>Tiếng anh</item>
+        <item>Toán học</item>
+        <item>Văn học</item>
+        <item>Thể thao</item>
+        <item>Nghệ thuật</item>
+        <item>Khoa học</item>
+        <item>Môi trường</item>
+        <item>Lịch sử</item>
+        <item>Địa lý</item>
+    </string-array>
+
+</resources>
