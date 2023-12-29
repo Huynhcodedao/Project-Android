@@ -53,7 +53,7 @@ public class MainActivity5 extends AppCompatActivity {
                     Toast.makeText(MainActivity5.this, "Các câu hỏi chủ đề " + topicName, Toast.LENGTH_SHORT).show();
             }
         });
-        
+        //Chọn detail cau hoi
         ListView listView = findViewById(R.id.listField);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id){
