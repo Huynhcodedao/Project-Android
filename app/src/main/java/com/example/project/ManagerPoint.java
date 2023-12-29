@@ -10,7 +10,6 @@ public class ManagerPoint {
     public static void capNhatDiemSo(Context context, int diemSoCuaLanChoi) {
         int diemSoHienTai = getDiemSo(context);
         diemSoHienTai += diemSoCuaLanChoi;
-
         SharedPreferences.Editor editor = context.getSharedPreferences("MyPoint", Context.MODE_PRIVATE).edit();
         editor.putInt("diemSo", diemSoHienTai);
         editor.apply();

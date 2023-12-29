@@ -12,7 +12,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:layout_marginBottom="100dp"
+        android:layout_marginBottom="80dp"
         android:gravity="center"
         android:text="Hà nội là thủ đô của nước nào?"
         android:textSize="35dp"
@@ -28,8 +28,8 @@
         android:id="@+id/radio_group"
         android:layout_width="329dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
         android:layout_marginBottom="130dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="@+id/btnTraloi"
@@ -42,7 +42,7 @@
             android:layout_height="wrap_content"
             android:checked="false"
             android:text="L (28 cm)"
-            android:textSize="30dp" />
+            android:textSize="25dp" />
 
         <RadioButton
             android:id="@+id/rtn2"
@@ -50,7 +50,7 @@
             android:layout_height="wrap_content"
             android:checked="false"
             android:text="L (28 cm)"
-            android:textSize="30dp" />
+            android:textSize="25dp" />
 
         <RadioButton
             android:id="@+id/rtn3"
@@ -58,7 +58,7 @@
             android:layout_height="wrap_content"
             android:checked="false"
             android:text="M (20 cm)"
-            android:textSize="30dp" />
+            android:textSize="25dp" />
 
         <RadioButton
             android:id="@+id/rtn4"
@@ -66,7 +66,7 @@
             android:layout_height="wrap_content"
             android:checked="false"
             android:text="S (18 cm)"
-            android:textSize="30dp" />
+            android:textSize="25dp" />
     </RadioGroup>
 
     <Button

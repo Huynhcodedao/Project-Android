@@ -4,16 +4,21 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.content.Intent;
+import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+import com.example.project.databinding.ActivityMain2Binding;
+import com.example.project.databinding.ActivityMainBinding;
 
+public class MainActivity extends AppCompatActivity {
+    private ActivityMainBinding binding;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        Button start = findViewById(R.id.button2);
-        start.setOnClickListener(view->{
+        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        View viewview = binding.getRoot();
+        setContentView(viewview);
+        binding.button2.setOnClickListener(view->{
             Intent intent = new Intent(MainActivity.this, MainActivity2.class);
             startActivity(intent);
         });

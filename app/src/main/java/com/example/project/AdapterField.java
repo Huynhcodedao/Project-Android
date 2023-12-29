@@ -46,7 +46,7 @@ public class AdapterField extends BaseAdapter {
         Field product = listField.get(i);
         //Ten linh vuc
         ((TextView) viewItem.findViewById(R.id.field_name)).setText(product.topic);
-      //Anh cua linh vuc
+        //Anh cua linh vuc
         ((ImageView) viewItem.findViewById(R.id.field_image)).setImageResource(product.image);
         //Noi dung chi tiet tung linh vuc
         ((TextView) viewItem.findViewById(R.id.detail)).setText(String.format("Mô tả: %s", product.field_detail));
